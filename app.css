@@ -1,0 +1,58 @@
+.tetris{
+  border: 1px solid #eeeeee;
+  display: inline-block;
+  font-size: 0px;
+}
+.tetris span{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+.tetris-t{
+  background-color: rgb(142, 0, 207);
+}
+.tetris-s{
+  background-color: #f00;
+}
+.tetris-i{
+  background-color: rgb(0, 197, 197);
+}
+.tetris-z{
+  background-color: rgb(17, 146, 0);
+}
+.tetris-o{
+  background-color: rgb(255, 238, 0);
+}
+.tetris-l{
+  background-color: rgb(0, 17, 255);
+}
+.tetris-j{
+  background-color: rgb(255, 123, 0);
+}
+
+
+.puyo{
+  border: 1px solid #eeeeee;
+  display: block;
+  font-size: 0px;
+  position: relative;
+  height: 140px;
+  width: 120px;
+}
+.puyo span{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+.puyo div{
+  position: absolute;
+}
+.puyo-G{
+  background-color: #0f0;
+}
+.puyo-R{
+  background-color: #F00;
+}
+.puyo-Y{
+  background-color: #FF0;
+}
